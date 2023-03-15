@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("/assets/background.png");
+  background-size: 100% 1030px;
+  font-family: Montserrat;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+/*topo*/
+#topo {
+  display: flex;
+  width: 75%;
+  height: 50px;
+  margin: 78px 0 0 12.5%;
+}
+#logo {
+  width: 265px;
+  height: 43px;
+}
+#menu {
+  display: flex;
+  color: white;
+  font-weight: 700;
+  width: 341px;
+  height: 24px;
+  margin: 12px 0 0 220px;
+  justify-content: space-between;
+}
+#butao-conectar {
+  height: 50px;
+  width: 230px;
+  background-color: white;
+  margin-left: 220px;
+  display: flex;
+}
+#butao-conectar:hover {
+  padding: 0 0 0 5px;
+}
+#img-butao {
+  margin: 10px 0 0 10px;
+}
+#text-butao {
+  margin: 15px 0 0 10px;
+  font-weight: 700;
+}
+
+#conectar {
+  background-color: rgba(255, 255, 255, 0.819);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 500px;
+  height: 650px;
+  display: inline-block;
+  font-size: 35px;
+  margin: 0px 0 0 35%;
+  border-radius: 5px;
+  display: none;
+}
+.input {
+  height: 40px;
+  width: 430px;
+  border-radius: 4px;
+  color: rgb(90, 87, 87);
+  margin: 0 0 0 35px;
+  font-size: 30px;
+}
+#h {
+  margin: 40px 0 0 27px;
+}
+#butao-for {
+  height: 40px;
+  width: 380px;
+  margin: 40px 0 0 60px;
+  color: black;
+  background-color: rgb(255, 80, 67);
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.for-tex {
+  margin: 25px 0 0 35px;
+  width: 200px;
+}
+#sai {
+  width: 200px;
+  height: 30px;
+  color: black;
+  font-weight: bolder;
+  border: none;
+  margin: 86px 0 0 153px;
+  background-color: rgba(255, 255, 255, 0.181);
+  font-size: 20px;
+}
+#sai:hover {
+  background-color: red;
+}
+#ajuda {
+  font-size: medium;
+  color: rgb(90, 87, 87);
+  margin: 10px 0 0 160px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.276);
+}
+#msg {
+  display: none;
+  margin: 0 0 0 160px;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(175, 137, 137);
+  font-size: medium;
+}
+/*primeiro texto*/
+#parte1 {
+  color: white;
+  width: 75%;
+  height: 246px;
+  margin: 100px 0 0 12.5%;
+  display: flex;
+}
+#text {
+  width: 340px;
+  height: 88px;
+}
+#foto-parte {
+  width: 369px;
+  height: 87px;
+  display: flex;
+  margin-top: 30px;
+}
+#foto-parte-texto {
+  display: inline-block;
+  margin-top: 40px 0 0 2px;
+}
+#parte2 {
+  color: white;
+  width: 596px;
+  height: 246px;
+}
+#img-parte {
+  width: 200px;
+  height: 200px;
+  margin: 26px 0 0 53px;
+}
+.texto-2 {
+  font-weight: bolder;
+  margin-top: 0;
+  font-size: larger;
+  font-size: 50px;
+}
+.display {
+  display: flex;
+}
+.text-red {
+  color: red;
+}
+#galeria {
+  margin-top: 100px;
+}
+.galeria-1 {
+  width: 1277px;
+  height: 198px;
+  display: flex;
+  margin-left: 196px;
+}
+#galeria-m {
+  margin-top: 60px;
+}
+.img-galeria {
+  margin-left: 18px;
+  animation-duration: 5s;
+}
+.img-galeria:hover {
+  width: 350px;
+  padding: 12px 12px 12px 12px;
+  animation-duration: 6s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#banner {
+  display: flex;
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 660px;
+  padding: 0;
+  margin: 0;
+}
+#numeros {
+  width: 190px;
+  height: 387px;
+  margin-left: 11%;
+  margin-top: 137px;
+}
+.font-banner {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+#lorem {
+  display: flex;
+  width: 952px;
+  margin-top: 180;
+  margin-left: 180px;
+
+  height: 214px;
+}
+#img-banner {
+  width: 1300px;
+  height: 300px;
+  margin-top: 146px;
+}
+.i {
+  margin-top: 73px;
+}
+.but-lorem {
+  margin-top: 60px;
+  color: white;
+  animation: none;
+}
+#linha {
+  height: 5px;
+  width: 99.8%;
+  background-color: dimgrey;
+  margin: 0;
+  padding: 0;
+}
+.bloco1 {
+  display: flex;
+  margin-left: 100px;
+}
+#linha-1 {
+  height: 660px;
+  width: 5px;
+  background-color: dimgrey;
+}
+
+/* inicio |
+populares da semana 
+
+titulo*/
+#texto-populares {
+  color: white;
+  margin: 150px 0 0 180px;
+  font-size: 50px;
+}
+/*caixa pai*/
+#caixa-populares {
+  background-color: black;
+  color: white;
+  margin: 150px 0 0 11%;
+  width: 1266px;
+  height: 937px;
+  display: flex;
+}
+.caixas-artistas {
+  margin-top: 100px;
+}
+.artistas-populares {
+  display: flex;
+  margin: 20px 0 20px 100px;
+  justify-content: space-between;
+}
+.img-astro:hover {
+  top: -2px;
+  border-bottom: 2px solid #ffffff;
+}
+/*linha*/
+#linha-partindo {
+  width: 5px;
+  height: 714px;
+  background-color: dimgrey;
+  margin: 100px 0 0 305px;
+}
+#coluna-2-populares {
+  margin-left: 260px;
+}
+/* final //
+
+inicio |
+Melhores artistas
+*/
+#titulo {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin: 60px 0 120px 0px;
+}
+.caixa-melhores {
+  width: 350px;
+  height: 150px;
+  background-color: rgb(37, 37, 37);
+  margin-left: 9.5%;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.tamalho-img {
+  width: 100px;
+  height: 100px;
+  margin: 22px 0 0 25px;
+}
+.tamalho-img:hover {
+  width: 110px;
+  height: 110px;
+}
+.texto-caixa-melhores {
+  margin: 50px 0 0 50px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#linha-de-caixas {
+  display: flex;
+  margin-top: 70px;
+}
+#butao-melhores {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 20px;
+}
+/*final //
+
+inicio |
+footer*/
+
+#footer {
+  width: 100%;
+  height: 290px;
+  background-color: rgb(37, 37, 37);
+}
+#topo-footer {
+  width: 1268px;
+  height: 40px;
+  margin-left: 210px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+#butao-footer {
+  width: 40px;
+  height: 40px;
+  margin-left: 925px;
+  background-color: rgb(255, 91, 80);
+  border: none;
+}
+.linha-f {
+  height: 5px;
+  width: 100%;
+  background-color: rgb(90, 87, 87);
+}
+#meio-footer {
+  display: flex;
+  margin-left: 100px;
+}
+#linha-f1 {
+  height: 150px;
+  width: 5px;
+  background-color: rgb(90, 87, 87);
+  margin-left: 30px;
+}
+#saiba-mais-footer {
+  display: flex;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  justify-content: space-between;
+}
+.contato-footer {
+  margin: 20px 0 0 150px;
+}
+.lista-f {
+  display: flex;
+  color: white;
+}
+#fim {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  margin-top: 5px;
+}

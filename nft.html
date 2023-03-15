@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Loja | NFTs</title>
+  </head>
+  <body id="corpo">
+    <!--parte | topo-->
+    <header>
+      <div id="topo">
+        <img src="/assets/logo.svg" id="logo" />
+        <nav id="menu">
+          <ul>
+            Comprar NFT
+          </ul>
+          <ul>
+            Sobre
+          </ul>
+          <ul>
+            FAQ
+          </ul>
+        </nav>
+        <button id="butao-conectar" onclick="conectar()">
+          <img src="/assets/logo_MetaMask.svg" id="img-butao" />
+          <p id="text-butao">Conectar Carteira</p>
+        </button>
+      </div>
+    </header>
+    <!--parte | pagina oculta de conectar carteira-->
+    <div id="conectar">
+      <form>
+        <h2 id="h">Entrar na Carteira</h2>
+        <p class="for-tex">Email</p>
+        <input type="email" name="Email" value="Seu Email" class="input" />
+        <p class="for-tex">Senha</p>
+        <input
+          type="password"
+          name="Senha"
+          value="123456"
+          maxlength="6"
+          class="input"
+        /><br />
+        <button id="butao-for">Entrar</button>
+        <button id="ajuda" onclick="text()">Esqueci minha senha</button>
+        <p id="msg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae numquam,
+          placeat.
+        </p>
+        <button id="sai" onclick="s()">Sair</button>
+      </form>
+    </div>
+    <!--parte | conteudo main-->
+    <main>
+      <div id="parte1">
+        <section>
+          <p id="text">
+            Mercado digital para colecionáveis em criptos e tokens não fungível
+            (NFT). Compre, venda e descubra ativos digitais exclusivos para você
+          </p>
+          <div id="foto-parte">
+            <img src="/assets/group-avarts.png" />
+            <div id="foto-parte-texto">
+              <strong>+10</strong>
+              <p>Artistas selecionados</p>
+            </div>
+          </div>
+        </section>
+        <div id="parte2">
+          <h1 class="texto-2">
+            Descubra a verdadeira <br />arte digital e <br />colecione diversas
+            <br />
+            <strong class="text-red" class="texto-2">NFTs</strong>
+          </h1>
+        </div>
+        <img src="/assets/badge.svg" id="img-parte" />
+      </div>
+    </main>
+    <!--parte | galerias-->
+    <section>
+      <nav id="galeria">
+        <div class="galeria-1">
+          <img
+            src="/assets/galeria-1.png"
+            title="astronauta em NFTs"
+            class="img-galeria"
+          />
+          <img
+            src="/assets/galeria-2.png"
+            title="astronauta em NFTs"
+            class="img-galeria"
+          />
+          <img
+            src="/assets/galeria-3.png"
+            title="astronauta em NFTs"
+            class="img-galeria"
+          />
+          <img
+            src="/assets/galeria-4.png"
+            title="astronauta em NFTs"
+            class="img-galeria"
+          />
+        </div>
+        <div class="galeria-1" id="galeria-m">
+          <img
+            src="/assets/galeria-5.png"
+            title="astronauta em NFTs"
+            class="img-galeria"
+          />
+          <img
+            src="/assets/galeria-6.png"
+            title="astronauta em NFTs"
+            class="img-galeria"
+          />
+          <img
+            src="/assets/galeria-7.png"
+            title="astronauta em NFTs"
+            class="img-galeria"
+          />
+          <img
+            src="/assets/galeria-8.png"
+            title="astronauta em NFTs"
+            class="img-galeria"
+          />
+        </div>
+      </nav>
+    </section>
+    <!--parte | lorem texto-->
+    <main>
+      <div id="banner">
+        <nav id="numeros">
+          <div>
+            <p class="font-banner">10k+</p>
+            <p>Artes</p>
+            <p class="font-banner">200+</p>
+            <p>Vendas</p>
+            <p class="font-banner">20</p>
+            <p>Artistas</p>
+          </div>
+        </nav>
+        <div id="linha-1"></div>
+        <section>
+          <div id="lorem">
+            <div>
+              <p class="i">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Cupiditate explicabo
+                <strong class="text-red">valuation NFTs</strong> provident
+                inventore eveniet laboriosam doloribus optio iure culpa
+                praesentium porro dignissimos quam, ut itaque accusantium
+                reprehenderit nisi.
+              </p>
+              <a class="but-lorem" href="http://">Saiba mais</a>
+            </div>
+            <div>
+              <p class="i">
+                Lorem, ipsum dolor sit amet
+                <strong class="text-red">valuation NFTs</strong> adipisicing
+                elit. Architecto similique deleniti quae deserunt itaque atque
+                fugit neque nisi nam impedit, iure fugiat consectetur obcaecati
+                unde sequi illum magni explicabo beatae.
+              </p>
+              <a class="but-lorem" href="http://">Saiba mais</a>
+            </div>
+          </div>
+          <img src="/assets/banner.png" id="img-banner" />
+        </section>
+      </div>
+    </main>
+    <hr id="linha" />
+    <!--parte | populares da semana-->
+    <main>
+      <h1 id="texto-populares">
+        <strong class="text-red">Populares</strong> da semana
+      </h1>
+
+      <div id="caixa-populares">
+        <div>
+          <div class="caixas-artistas">
+            <h2>Astrounauta 1 <img src="/assets/arrow-white.svg" /></h2>
+            <div class="artistas-populares">
+              <p>Mayk Brito</p>
+              <strong class="text-red">1.50 RKT</strong>
+            </div>
+            <img src="/assets/astronauta 1.png" class="img-astro" />
+          </div>
+          <div class="caixas-artistas">
+            <h2>Astrounauta 3 <img src="/assets/arrow-white.svg" /></h2>
+            <div class="artistas-populares">
+              <p>João inácio (Biro)</p>
+              <strong class="text-red">3.75 RKT</strong>
+            </div>
+            <img src="/assets/astronauta-3.png" class="img-astro" />
+          </div>
+        </div>
+
+        <!--linha-->
+        <div id="linha-partindo"></div>
+
+        <div id="coluna-2-populares">
+          <div class="caixas-artistas">
+            <h2>Astrounauta 2 <img src="/assets/arrow-white.svg" /></h2>
+            <div class="artistas-populares">
+              <p>Jakeliny Gracielly</p>
+              <strong class="text-red">2.00 RKT</strong>
+            </div>
+            <img src="/assets/astronauta-2.png" class="img-astro" />
+          </div>
+          <div class="caixas-artistas">
+            <h2>Astrounauta 4 <img src="/assets/arrow-white.svg" /></h2>
+            <div class="artistas-populares">
+              <p>Tamires Santos</p>
+              <strong class="text-red">4.30 RKT</strong>
+            </div>
+            <img src="/assets/astronauta-4.png" class="img-astro" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--parte | Quantidade de fotos por artista-->
+    <section>
+      <h1 id="titulo">Melhores <strong class="text-red">Artistas</strong></h1>
+
+      <nav>
+        <div class="display">
+          <div class="caixa-melhores">
+            <img
+              src="/assets/artista-1.png"
+              title="Artista de varias obras de suceso"
+              class="tamalho-img"
+            />
+            <div class="texto-caixa-melhores">
+              <p>Mayk Brito</p>
+              <p class="text-red">80 fotografias</p>
+            </div>
+          </div>
+          <div class="caixa-melhores">
+            <img src="/assets/artista-2.png" class="tamalho-img" />
+            <div class="texto-caixa-melhores">
+              <p>Jakeliny G.</p>
+              <p class="text-red">99 fotografias</p>
+            </div>
+          </div>
+          <div class="caixa-melhores">
+            <img src="/assets/artista-3.png" class="tamalho-img" />
+            <div class="texto-caixa-melhores">
+              <p>João I.</p>
+              <p class="text-red">50 fotografias</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="linha-de-caixas">
+          <div class="caixa-melhores">
+            <img src="/assets/artista-4.png" class="tamalho-img" />
+            <div class="texto-caixa-melhores">
+              <p>Tamires Santos</p>
+              <p class="text-red">43 fotografias</p>
+            </div>
+          </div>
+          <div class="caixa-melhores">
+            <img src="/assets/artista-5.png" class="tamalho-img" />
+            <div class="texto-caixa-melhores">
+              <p>Ana Silva</p>
+              <p class="text-red">28 fotografias</p>
+            </div>
+          </div>
+          <div class="caixa-melhores">
+            <img src="/assets/artista-6.png" class="tamalho-img" />
+            <div class="texto-caixa-melhores">
+              <p>Diego F.</p>
+              <p class="text-red">20 fotografias</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <p id="butao-melhores">
+        Ver todos os Artistas <img src="/assets/arrow-orange.svg" />
+      </p>
+    </section>
+    <!--parte | comtato footer-->
+    <footer>
+      <div id="footer">
+        <div id="topo-footer">
+          <img src="/assets/logo.svg" />
+          <button id="butao-footer">
+            <img src="/assets/arrow-black.svg" />
+          </button>
+        </div>
+
+        <div class="linha-f"></div>
+
+        <div id="meio-footer">
+          <div>
+            <h1>
+              Fique por dentro de <br />
+              <strong class="text-red">Todas as novidades</strong>
+            </h1>
+            <input type="email" name="" value="nft@rocketseat.com.br" id="" />
+            <button>Emviar</button>
+          </div>
+
+          <div id="linha-f1"></div>
+
+          <div id="saiba-mais-footer">
+            <nav class="contato-footer">
+              <ul>
+                Empresa
+              </ul>
+              <ul>
+                Sobre
+              </ul>
+              <ul>
+                Serviços
+              </ul>
+              <ul>
+                Time
+              </ul>
+              <ul>
+                Carreira
+              </ul>
+            </nav>
+            <nav class="contato-footer">
+              <ul>
+                Mapa
+              </ul>
+              <ul>
+                Galeria
+              </ul>
+              <ul>
+                Populares
+              </ul>
+              <ul>
+                Vendas
+              </ul>
+              <ul>
+                Contato
+              </ul>
+            </nav>
+            <nav class="contato-footer">
+              <ul>
+                Links
+              </ul>
+              <ul>
+                FAQs
+              </ul>
+              <ul>
+                Termos
+              </ul>
+              <ul>
+                Politicas
+              </ul>
+              <ul>
+                Ajuda
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="linha-f"></div>
+
+        <div id="fim">
+          <p>rocketseat.com.br</p>
+          <div>
+            <img src="/assets/instagram.svg" alt="" srcset="" />
+            <img src="/assets/youtube.svg" alt="" srcset="" />
+            <img src="/assets/twitter.svg" alt="" srcset="" />
+            <img src="/assets/email.svg" alt="" srcset="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
