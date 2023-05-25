@@ -13,56 +13,50 @@
     />
     <title>Loja | NFTs</title>
   </head>
-  <body id="corpo">
-    <!--parte | topo-->
+  <body>
+    <!--topo-->
     <header>
-      <div id="topo">
-        <img src="/assets/logo.svg" id="logo" />
-        <nav id="menu">
-          <ul>
-            Comprar NFT
-          </ul>
-          <ul>
-            Sobre
-          </ul>
-          <ul>
-            FAQ
-          </ul>
-        </nav>
-        <button id="butao-conectar" onclick="conectar()">
-          <img src="/assets/logo_MetaMask.svg" id="img-butao" />
-          <p id="text-butao">Conectar Carteira</p>
+      <div id="div-header">
+        <img src="/assets/logo.svg" />
+        <ul id="lista-a">
+          <li><a href="nft.html">Comprar NFT</a></li>
+          <li><a href="Sobre">Sobre</a></li>
+          <li><a href="FAQ">FAQ</a></li>
+        </ul>
+        <button id="button-header" onclick="conectar()">
+          <img src="/assets/logo_MetaMask.svg" />
+          <p>Conectar Carteira</p>
         </button>
       </div>
     </header>
-    <!--parte | pagina oculta de conectar carteira-->
-    <div id="conectar">
+    <!--pagina oculta de conectar carteira-->
+    <div id="conectar-carteira">
       <form>
-        <h2 id="h">Entrar na Carteira</h2>
-        <p class="for-tex">Email</p>
-        <input type="email" name="Email" value="Seu Email" class="input" />
-        <p class="for-tex">Senha</p>
+        <h2>Entrar na Carteira</h2>
+        <p class="form-p">Email</p>
+        <input
+          type="email"
+          name="Email"
+          placeholder="Seu Email"
+          class="form-input"
+        />
+        <p class="form-p">Senha</p>
         <input
           type="password"
           name="Senha"
-          value="123456"
+          placeholder="******"
           maxlength="6"
-          class="input"
+          class="form-input"
         /><br />
-        <button id="butao-for">Entrar</button>
-        <button id="ajuda" onclick="text()">Esqueci minha senha</button>
-        <p id="msg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae numquam,
-          placeat.
-        </p>
-        <button id="sai" onclick="s()">Sair</button>
+        <button id="button-entrar-form">Entrar</button>
+        <button id="button-sair-form" onclick="s()">Sair</button>
       </form>
     </div>
-    <!--parte | conteudo main-->
+    <!--conteudo main-->
     <main>
-      <div id="parte1">
+      <div id="main-div">
         <section>
-          <p id="text">
+          <p id="main-p">
             Mercado digital para colecionáveis em criptos e tokens não fungível
             (NFT). Compre, venda e descubra ativos digitais exclusivos para você
           </p>
@@ -74,17 +68,17 @@
             </div>
           </div>
         </section>
-        <div id="parte2">
+        <section id="parte2">
           <h1 class="texto-2">
             Descubra a verdadeira <br />arte digital e <br />colecione diversas
             <br />
             <strong class="text-red" class="texto-2">NFTs</strong>
           </h1>
-        </div>
+        </section>
         <img src="/assets/badge.svg" id="img-parte" />
       </div>
     </main>
-    <!--parte | galerias-->
+    <!--galerias-->
     <section>
       <nav id="galeria">
         <div class="galeria-1">
@@ -133,7 +127,7 @@
         </div>
       </nav>
     </section>
-    <!--parte | lorem texto-->
+    <!--lorem texto-->
     <main>
       <div id="banner">
         <nav id="numeros">
@@ -158,7 +152,7 @@
                 praesentium porro dignissimos quam, ut itaque accusantium
                 reprehenderit nisi.
               </p>
-              <a class="but-lorem" href="http://">Saiba mais</a>
+              <a class="but-lorem" href="">Saiba mais</a>
             </div>
             <div>
               <p class="i">
@@ -168,7 +162,7 @@
                 fugit neque nisi nam impedit, iure fugiat consectetur obcaecati
                 unde sequi illum magni explicabo beatae.
               </p>
-              <a class="but-lorem" href="http://">Saiba mais</a>
+              <a class="but-lorem" href="">Saiba mais</a>
             </div>
           </div>
           <img src="/assets/banner.png" id="img-banner" />

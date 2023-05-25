@@ -1,4 +1,4 @@
-let form = document.getElementById("conectar");
+let form = document.getElementById("conectar-carteira");
 
 function conectar() {
   form.style.display = "flex";

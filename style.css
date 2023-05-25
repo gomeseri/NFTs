@@ -2,64 +2,83 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-image: url("/assets/background.png");
-  background-size: 100% 1030px;
   font-family: Montserrat;
   background-repeat: no-repeat;
   background-color: black;
+  background-size: 100% 100rem;
 }
-/*topo*/
-#topo {
+
+/*header*/
+
+#div-header {
+  justify-content: space-around;
   display: flex;
-  width: 75%;
-  height: 50px;
-  margin: 78px 0 0 12.5%;
+  margin-top: 20px;
 }
-#logo {
+
+#div-header img {
   width: 265px;
   height: 43px;
 }
-#menu {
+
+#lista-a {
   display: flex;
-  color: white;
+  color: #ffffff;
+  list-style-type: none;
   font-weight: 700;
-  width: 341px;
-  height: 24px;
-  margin: 12px 0 0 220px;
-  justify-content: space-between;
-}
-#butao-conectar {
-  height: 50px;
-  width: 230px;
-  background-color: white;
-  margin-left: 220px;
-  display: flex;
-}
-#butao-conectar:hover {
-  padding: 0 0 0 5px;
-}
-#img-butao {
-  margin: 10px 0 0 10px;
-}
-#text-butao {
-  margin: 15px 0 0 10px;
-  font-weight: 700;
+  gap: 4rem;
 }
 
-#conectar {
+#lista-a a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#button-header {
+  display: flex;
+  border-radius: 7px;
+}
+
+#button-header img {
+  width: 60px;
+  height: 43px;
+}
+
+#button-header p {
+  font-size: medium;
+  width: 150px;
+  height: 33px;
+  margin-top: 10px;
+}
+
+/*pagina oculta conectar carteira*/
+
+#conectar-carteira {
   background-color: rgba(255, 255, 255, 0.819);
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   width: 500px;
-  height: 650px;
+  height: 500px;
   display: inline-block;
   font-size: 35px;
   margin: 0px 0 0 35%;
   border-radius: 5px;
   display: none;
 }
-.input {
+
+#conectar-carteira h2 {
+  text-align: center;
+}
+
+.form-p {
+  margin: 25px 0 0 35px;
+  width: 200px;
+}
+
+.form-input {
   height: 40px;
   width: 430px;
   border-radius: 4px;
@@ -67,10 +86,8 @@ body {
   margin: 0 0 0 35px;
   font-size: 30px;
 }
-#h {
-  margin: 40px 0 0 27px;
-}
-#butao-for {
+
+#button-entrar-form {
   height: 40px;
   width: 380px;
   margin: 40px 0 0 60px;
@@ -81,11 +98,8 @@ body {
   font-size: 25px;
   font-weight: bold;
 }
-.for-tex {
-  margin: 25px 0 0 35px;
-  width: 200px;
-}
-#sai {
+
+#button-sair-form {
   width: 200px;
   height: 30px;
   color: black;
@@ -95,46 +109,39 @@ body {
   background-color: rgba(255, 255, 255, 0.181);
   font-size: 20px;
 }
-#sai:hover {
-  background-color: red;
+
+#button-sair-form:hover {
+  background-color: rgba(255, 0, 0, 0.843);
+  border-radius: 3px;
 }
-#ajuda {
-  font-size: medium;
-  color: rgb(90, 87, 87);
-  margin: 10px 0 0 160px;
-  border: none;
-  background-color: rgba(255, 255, 255, 0.276);
-}
-#msg {
-  display: none;
-  margin: 0 0 0 160px;
-  width: 200px;
-  height: 100px;
-  background-color: rgb(175, 137, 137);
-  font-size: medium;
-}
-/*primeiro texto*/
-#parte1 {
+
+/*conteudo main*/
+
+#main-div {
   color: white;
   width: 75%;
   height: 246px;
   margin: 100px 0 0 12.5%;
   display: flex;
 }
-#text {
+
+#main-p {
   width: 340px;
   height: 88px;
 }
+
 #foto-parte {
   width: 369px;
   height: 87px;
   display: flex;
   margin-top: 30px;
 }
+
 #foto-parte-texto {
   display: inline-block;
   margin-top: 40px 0 0 2px;
 }
+
 #parte2 {
   color: white;
   width: 596px;
