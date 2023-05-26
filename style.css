@@ -118,11 +118,12 @@ body {
 /*conteudo main*/
 
 #main-div {
-  color: white;
-  width: 75%;
-  height: 246px;
-  margin: 100px 0 0 12.5%;
   display: flex;
+  color: white;
+  width: 75rem;
+  height: 246px;
+  margin: auto;
+  margin-top: 100px;
 }
 
 #main-p {
@@ -164,44 +165,34 @@ body {
 .text-red {
   color: red;
 }
+
 #galeria {
+  margin-top: 3rem;
+  width: 100rem;
+  margin: auto;
   margin-top: 100px;
 }
 .galeria-1 {
-  width: 1277px;
-  height: 198px;
   display: flex;
-  margin-left: 196px;
+  justify-content: space-around;
 }
 #galeria-m {
-  margin-top: 60px;
+  margin-top: 3rem;
 }
-.img-galeria {
-  margin-left: 18px;
-  animation-duration: 5s;
-}
-.img-galeria:hover {
-  width: 350px;
-  padding: 12px 12px 12px 12px;
-  animation-duration: 6s;
-  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
+
+/*banner rapas de oculos*/
 
 #banner {
   display: flex;
   color: white;
   background-color: black;
-  width: 100%;
-  height: 660px;
-  padding: 0;
-  margin: 0;
+  width: 100rem;
+  height: 640px;
 }
-#numeros {
-  width: 190px;
-  height: 387px;
-  margin-left: 11%;
-  margin-top: 137px;
+#numeros-banner {
+  margin-top: 12rem;
 }
+
 .font-banner {
   font-size: 50px;
   font-weight: bold;
@@ -210,16 +201,11 @@ body {
 }
 #lorem {
   display: flex;
-  width: 952px;
-  margin-top: 180;
-  margin-left: 180px;
-
-  height: 214px;
+  width: 90rem;
+  margin-top: 18;
 }
 #img-banner {
-  width: 1300px;
-  height: 300px;
-  margin-top: 146px;
+  justify-content: end;
 }
 .i {
   margin-top: 73px;
@@ -231,17 +217,15 @@ body {
 }
 #linha {
   height: 5px;
-  width: 99.8%;
+  width: 100%;
   background-color: dimgrey;
-  margin: 0;
-  padding: 0;
 }
 .bloco1 {
   display: flex;
   margin-left: 100px;
 }
 #linha-1 {
-  height: 660px;
+  height: 40rem;
   width: 5px;
   background-color: dimgrey;
 }
@@ -252,15 +236,16 @@ populares da semana
 titulo*/
 #texto-populares {
   color: white;
-  margin: 150px 0 0 180px;
+  text-align: center;
   font-size: 50px;
+  margin-top: 4rem;
 }
 /*caixa pai*/
 #caixa-populares {
   background-color: black;
   color: white;
-  margin: 150px 0 0 11%;
-  width: 1266px;
+  justify-content: space-around;
+  width: 100rem;
   height: 937px;
   display: flex;
 }
@@ -281,10 +266,10 @@ titulo*/
   width: 5px;
   height: 714px;
   background-color: dimgrey;
-  margin: 100px 0 0 305px;
+  margin-top: 8rem;
 }
 #coluna-2-populares {
-  margin-left: 260px;
+  justify-content: center;
 }
 /* final //
 
